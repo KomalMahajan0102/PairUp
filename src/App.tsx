@@ -207,6 +207,7 @@ function App() {
           `,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
+          
         }}
       >
         <div className="w-full max-w-xl">
@@ -229,7 +230,7 @@ function App() {
               <img src='/logo.jpg' className='w-20 h-20  rounded-full mx-auto'/>
             </motion.div>
             <h1 className="mt-6 text-5xl font-bold text-white">
-              Cafe Unknown
+              PairUp
             </h1>
             <p className="mt-3 text-xl text-purple-200">Find your perfect conversation partner</p>
           </motion.div>
