@@ -65,7 +65,7 @@ function App() {
 
     try {
       if (formData.wantsToTalk) {
-        const response = await fetch('https://cafe-unknown.onrender.com/api/users', {
+        const response = await fetch('https://pairup-api-n4kw.onrender.com', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
