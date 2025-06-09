@@ -65,7 +65,7 @@ function App() {
 
     try {
       if (formData.wantsToTalk) {
-        const response = await fetch('https://pairup-csk-api.onrender.com', {
+        const response = await fetch('https://pairup-csk-api.onrender.com/api/users', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
